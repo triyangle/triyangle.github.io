@@ -1,9 +1,8 @@
-
 <head>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <title>William Yang</title>
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
   <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
@@ -15,6 +14,13 @@
   <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700" rel="stylesheet">
 </head>
 
+<script>
+  $(document).ready(function() {
+    console.log("ready")
+    $("h1").addClass("animated pulse");
+    $(".icon").addClass("animated flipInX");
+  });
+</script>
 <style>
 
   h1 {
@@ -41,11 +47,11 @@
   <div class="navbar-custom navbar navbar-default navbar-fixed-bottom">
     <div class="row text-center container-fluid">
       <div class="col-sm-2"></div>
-      <div class="col-sm-2"><a href="https://github.com/triyangle"><i class="fa fa-github fa-5x"></i></a></div>
-      <div class="col-sm-2"><a href="https://bitbucket.org/triyangle/"><i class="fa fa-bitbucket fa-5x"></i></a></div>
-      <div class="col-sm-2"><a href="https://www.linkedin.com/in/william-h-yang"><i class="fa fa-linkedin-square fa-5x"></i></a></div>
-      <div class="col-sm-2"><a href="https://www.youtube.com/channel/UCsyktnuiQeV8ZJ-IwwRrSjg"><i class="fa fa-youtube fa-5x"></i></a></div>
-      <div class="col-sm-2"></div>
+      <div class="col-sm-2 icon"><a href="https://github.com/triyangle"><i class="fa fa-github fa-5x"></i></a></div>
+      <div class="col-sm-2 icon"><a href="https://bitbucket.org/triyangle/"><i class="fa fa-bitbucket fa-5x"></i></a></div>
+      <div class="col-sm-2 icon"><a href="https://www.linkedin.com/in/william-h-yang"><i class="fa fa-linkedin-square fa-5x"></i></a></div>
+      <div class="col-sm-2 icon"><a href="https://www.youtube.com/channel/UCsyktnuiQeV8ZJ-IwwRrSjg"><i class="fa fa-youtube fa-5x"></i></a></div>
+      <div class="col-sm-2 icon"></div>
     </div>
   </div>
 </div>
